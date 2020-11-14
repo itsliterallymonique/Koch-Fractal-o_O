@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Nov 14 11:58:28 2020
-
-@author: MTMC
-"""
-
 import turtle
 
 def koch_fract(turtle, divis, size):
@@ -16,8 +8,8 @@ def koch_fract(turtle, divis, size):
             koch_fract(turtle, divis - 1, size / 3)
             turtle.left(angle)
 
-divis = 7
-size = 750
+divis = 10
+size = 2000
 
 wn = turtle.Screen()
 wn.setup(width=1000, height=500)
